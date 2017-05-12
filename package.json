@@ -1,14 +1,23 @@
 {
   "name": "oe-package-json",
-  "version": "4.0.1",
+  "version": "0.8.0",
   "description": "Get metadata of a package from the npm registry",
   "license": "MIT",
-  "repository": "pragyandas/oe-package-json",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:EdgeVerve/oe-package-json.git"
+  },
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
     "url": "sindresorhus.com"
   },
+  "contributors": [
+    {
+      "name": "Pragyan Das",
+      "email": "pragyandas@msn.com"
+    }
+  ],
   "engines": {
     "node": ">=4"
   },
@@ -27,7 +36,10 @@
     "json",
     "module",
     "scope",
-    "scoped"
+    "scoped",
+    "proxy support",
+    "npm search",
+    "corporate proxy"
   ],
   "dependencies": {
     "https-proxy-agent": "^1.0.0",
