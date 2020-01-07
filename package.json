@@ -42,7 +42,7 @@
     "corporate proxy"
   ],
   "dependencies": {
-    "https-proxy-agent": "^1.0.0",
+    "https-proxy-agent": "^2.2.4",
     "node-fetch": "^1.6.3",
     "rc": "^1.2.1",
     "registry-auth-token": "^3.0.1",
