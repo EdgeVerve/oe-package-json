@@ -1,6 +1,6 @@
 {
   "name": "oe-package-json",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Get metadata of a package from the npm registry",
   "license": "MIT",
   "repository": {
@@ -42,16 +42,16 @@
     "corporate proxy"
   ],
   "dependencies": {
-    "https-proxy-agent": "^2.2.4",
-    "node-fetch": "^1.6.3",
-    "rc": "^1.2.1",
-    "registry-auth-token": "^3.0.1",
-    "registry-url": "^3.0.3",
-    "semver": "^5.1.0"
+    "https-proxy-agent": "2.2.4",
+    "node-fetch": "1.7.3",
+    "rc": "1.2.8",
+    "registry-auth-token": "3.4.0",
+    "registry-url": "3.1.0",
+    "semver": "5.7.1"
   },
   "devDependencies": {
-    "ava": "*",
-    "mock-private-registry": "^1.1.0",
-    "xo": "*"
+    "ava": "3.0.0",
+    "mock-private-registry": "1.1.2",
+    "xo": "0.25.3"
   }
 }
